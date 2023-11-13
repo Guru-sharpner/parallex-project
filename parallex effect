@@ -1,0 +1,119 @@
+html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallexwebsite</title>
+</head>
+<body>
+    <div class="parallex1">
+        <div class="head">
+            what is life
+        </div>
+    </div>
+        <section>
+         <h1>story of life</h1>
+         <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt, repellendus officiis, recusandae voluptate eos quam earum quibusdam, hic nobis sequi officia quaerat necessitatibus harum cum? Eum maxime doloremque, dolore pariatur voluptatibus possimus aliquam non, neque provident perspiciatis corporis quis!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nesciunt, repellendus officiis, recusandae voluptate eos quam earum quibusdam, hic nobis sequi officia quaerat necessitatibus harum cum? Eum maxime doloremque, dolore pariatur voluptatibus possimus aliquam non, neque provident perspiciatis corporis quis!
+            </p>
+         </div>
+        </section>
+        <div class="parallex2">
+            
+        </div>
+        <section>
+            <h1>
+                why are resone
+            </h1>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium magnam consequatur, nam magni obcaecati iste fuga voluptatibus, similique quia officiis quas nostrum quaerat impedit, sit sunt rem? Mollitia repellendus soluta optio molestias assumenda. Tempore inventore, rerum dolore blanditiis dicta iste ex adipisci nobis fugiat, id laudantium nulla. Sint, incidunt?</p>
+                </div>
+            
+        </section>
+        <div class="parallex3">
+            
+        </div>
+        <section>
+            <h1>
+                take a coffee
+            </h1>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde praesentium magnam consequatur, nam magni obcaecati iste fuga voluptatibus, similique quia officiis quas nostrum quaerat impedit, sit sunt rem? Mollitia repellendus soluta optio molestias assumenda. Tempore inventore, rerum dolore blanditiis dicta iste ex adipisci nobis fugiat, id laudantium nulla. Sint, incidunt?</p>
+                </div>
+        </section>
+        <div class="parallex4">
+            <div class="head">
+                what is life
+            </div>
+        </div>
+        <footer>
+            COPY RIGHT @ 20222 - Yo Yo Yo 
+        </footer>
+
+
+
+
+</body>
+</html>
+
+
+
+css code
+
+body{
+    height: 100%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+}
+.parallex1 {
+    background-image:url("Downloads/pexels-pixabay-276092.jpg"); 
+    min-height: 400px;
+
+   
+}
+.parallex2 {
+    background-image:url("Desktop/abcd.jpg");
+    min-height: 320px;
+
+}
+.parallex3{
+    background-image: url("Downloads/istockphoto-958937864-1024x1024\ \(1\).jpg");
+    min-height: 250px;
+}
+.parallex4{
+    background-image: url("Downloads/pexels-philippe-donn-1114690.jpg");
+    min-height: 230px;
+}
+.parallex1,.parallex2,.parallex3,.parallex4{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+ .head {
+    position: absolute;
+    color: rgb(90, 92, 86);
+    font-size: 80px;
+    top: 50%;
+    width: 100%;
+    letter-spacing: 10px;
+    animation: alternate-reverse;
+    cursor: pointer;
+}
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: skew(30deg, 20deg);
+
+    }
+}
